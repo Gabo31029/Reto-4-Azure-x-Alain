@@ -1,0 +1,22 @@
+{
+    "parameters": {
+        "rgDev": {
+            "value": {
+                "name": "miweb-rg-dev",
+                "location": "brazilsouth"
+            }
+        },
+        "rgTest": {
+            "value": {
+                "name": "miweb-rg-test",
+                "location": "brazilsouth"
+            }
+        },
+        "rgProd": {
+            "value": {
+                "name": "miweb-rg-prod",
+                "location": "brazilsouth"
+            }
+        }
+    }
+}
