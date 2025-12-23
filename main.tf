@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   for_each = toset(var.environments)
-  name     = "rg-web-${each.key}-terraform"
+  name     = "rg-web-${each.key}-terraform-v2"
   location = var.location
 }
 
